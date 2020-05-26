@@ -1,32 +1,30 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
   *{
-   margin:0;
-   padding:0;
-   outline:0;
-   box-sizing:border-box;
- }
- *:focus {
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+  }
+  *:focus {
     outline:0;
   }
 
   html, body, #root {
     height: 100%;
   }
-body {
-    max-width: 360px;
-    max-height: 640px;
+
+  body {
     -webkit-font-smoothing: antialiased !important;
     -webkit-image-smoothing: antialiased !important;
-
   }
 
   body , input , button {
     font-size: 1em;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Chelsea Market', cursive;
   }
 
   a {
@@ -35,7 +33,6 @@ body {
 
   ul {
     list-style: none;
-
   }
 
 `;
